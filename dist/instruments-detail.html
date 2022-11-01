@@ -122,10 +122,12 @@
 								</ul>
 							</div>
 							<div class="header__col">
-								<form class="header__form" action="/"><label class="header__search" for="search"><button class="header__search-icon"><svg class="header__search-svg" width="31" height="33" viewbox="0 0 31 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<form class="header__form" action="/"><label class="header__search" for="search" data-search-parent=""><button class="header__search-icon"><svg class="header__search-svg" width="31" height="33" viewbox="0 0 31 33" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<circle cx="17.7144" cy="13.2857" r="12.2857" stroke="#121212" stroke-width="2"></circle>
 												<line y1="-1" x2="12.5259" y2="-1" transform="matrix(-0.70711 0.707104 -0.70711 -0.707104 8.85693 22.1428)" stroke="#121212" stroke-width="2"></line>
-											</svg></button><textarea class="header__search-input" id="search" name="search" placeholder="Поиск по интернет-магазину"></textarea></label></form>
+											</svg></button>
+										<div class="header__search-wrapper"><input class="header__search-input" id="search" name="search" /><span class="header__search-placeholder">Поиск по интернет-магазину</span></div>
+									</label></form>
 							</div>
 							<div class="header__col">
 								<div class="header__links"><a class="header__cart" href="#">
@@ -1163,7 +1165,7 @@
 																<div class="aside__clear-text">Очистить</div>
 															</div>
 														</div>
-														<ul class="aside__list aside__inner">
+														<ul class="aside__list aside__inner" data-aside-list="">
 															<li class="aside__item">
 																<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" data-aside-checkbox="" />
 																		<div class="checkbox__box"><svg class="checkbox__svg" width="12" height="10" viewbox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1188,25 +1190,56 @@
 																		<div class="checkbox__text">Osawa HF высокопроизводительные</div>
 																	</label></div>
 															</li>
+															<li class="aside__item">
+																<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" data-aside-checkbox="" />
+																		<div class="checkbox__box"><svg class="checkbox__svg" width="12" height="10" viewbox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path d="M1 4.5L4.33333 8L11 1" stroke="white" stroke-width="1.5"></path>
+																			</svg></div>
+																		<div class="checkbox__text">Osawa HF высокопроизводительные</div>
+																	</label></div>
+															</li>
+															<li class="aside__item">
+																<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" data-aside-checkbox="" />
+																		<div class="checkbox__box"><svg class="checkbox__svg" width="12" height="10" viewbox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path d="M1 4.5L4.33333 8L11 1" stroke="white" stroke-width="1.5"></path>
+																			</svg></div>
+																		<div class="checkbox__text">Osawa HF высокопроизводительные</div>
+																	</label></div>
+															</li>
+															<li class="aside__item">
+																<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" data-aside-checkbox="" />
+																		<div class="checkbox__box"><svg class="checkbox__svg" width="12" height="10" viewbox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path d="M1 4.5L4.33333 8L11 1" stroke="white" stroke-width="1.5"></path>
+																			</svg></div>
+																		<div class="checkbox__text">Osawa HF высокопроизводительные</div>
+																	</label></div>
+															</li>
+															<li class="aside__item">
+																<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" data-aside-checkbox="" />
+																		<div class="checkbox__box"><svg class="checkbox__svg" width="12" height="10" viewbox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path d="M1 4.5L4.33333 8L11 1" stroke="white" stroke-width="1.5"></path>
+																			</svg></div>
+																		<div class="checkbox__text">Osawa HF высокопроизводительные</div>
+																	</label></div>
+															</li>
+															<li class="aside__item">
+																<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" data-aside-checkbox="" />
+																		<div class="checkbox__box"><svg class="checkbox__svg" width="12" height="10" viewbox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path d="M1 4.5L4.33333 8L11 1" stroke="white" stroke-width="1.5"></path>
+																			</svg></div>
+																		<div class="checkbox__text">Osawa HF высокопроизводительные</div>
+																	</label></div>
+															</li>
+															<li class="aside__item">
+																<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" data-aside-checkbox="" />
+																		<div class="checkbox__box"><svg class="checkbox__svg" width="12" height="10" viewbox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<path d="M1 4.5L4.33333 8L11 1" stroke="white" stroke-width="1.5"></path>
+																			</svg></div>
+																		<div class="checkbox__text">Osawa HF высокопроизводительные</div>
+																	</label></div>
+															</li>
 														</ul>
-														<div class="aside__dropdown" data-accordion-dropdown="">
-															<div class="aside__item">
-																<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" data-aside-checkbox="" />
-																		<div class="checkbox__box"><svg class="checkbox__svg" width="12" height="10" viewbox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M1 4.5L4.33333 8L11 1" stroke="white" stroke-width="1.5"></path>
-																			</svg></div>
-																		<div class="checkbox__text">Нержавеющая сталь</div>
-																	</label></div>
-															</div>
-															<div class="aside__item">
-																<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" data-aside-checkbox="" />
-																		<div class="checkbox__box"><svg class="checkbox__svg" width="12" height="10" viewbox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<path d="M1 4.5L4.33333 8L11 1" stroke="white" stroke-width="1.5"></path>
-																			</svg></div>
-																		<div class="checkbox__text">Нержавеющая сталь</div>
-																	</label></div>
-															</div>
-														</div>
+														<div class="aside__dropdown" data-accordion-dropdown=""></div>
 														<div class="aside__button aside__inner" data-button-show="" data-accordion-button="">
 															<div class="button-show">
 																<div class="button-show__text">Показать еще</div>
@@ -1228,7 +1261,7 @@
 																<div class="aside__clear-text">Очистить</div>
 															</div>
 														</div>
-														<ul class="aside__list aside__inner">
+														<ul class="aside__list aside__inner" data-aside-list="">
 															<li class="aside__item">
 																<div class="radio"><label class="radio__label"><input class="radio__input" type="radio" name="group1" checked="checked" data-radio-default="true" />
 																		<div class="radio__circle"><svg class="radio__svg" width="8" height="8" viewbox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1261,25 +1294,16 @@
 																		<div class="radio__text">Фаска 45° + радиус</div>
 																	</label></div>
 															</li>
+															<li class="aside__item">
+																<div class="radio"><label class="radio__label"><input class="radio__input" type="radio" name="group1" />
+																		<div class="radio__circle"><svg class="radio__svg" width="8" height="8" viewbox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+																				<rect width="8" height="8" rx="4" fill="#2447ED"></rect>
+																			</svg></div>
+																		<div class="radio__text">Острая кромка</div>
+																	</label></div>
+															</li>
 														</ul>
-														<div class="aside__dropdown" data-accordion-dropdown="">
-															<div class="aside__item">
-																<div class="radio"><label class="radio__label"><input class="radio__input" type="radio" name="group1" />
-																		<div class="radio__circle"><svg class="radio__svg" width="8" height="8" viewbox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<rect width="8" height="8" rx="4" fill="#2447ED"></rect>
-																			</svg></div>
-																		<div class="radio__text">Острая кромка</div>
-																	</label></div>
-															</div>
-															<div class="aside__item">
-																<div class="radio"><label class="radio__label"><input class="radio__input" type="radio" name="group1" />
-																		<div class="radio__circle"><svg class="radio__svg" width="8" height="8" viewbox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-																				<rect width="8" height="8" rx="4" fill="#2447ED"></rect>
-																			</svg></div>
-																		<div class="radio__text">Острая кромка</div>
-																	</label></div>
-															</div>
-														</div>
+														<div class="aside__dropdown" data-accordion-dropdown=""></div>
 														<div class="aside__button aside__inner" data-button-show="" data-accordion-button="">
 															<div class="button-show">
 																<div class="button-show__text">Показать еще</div>

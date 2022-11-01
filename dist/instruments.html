@@ -122,10 +122,12 @@
 								</ul>
 							</div>
 							<div class="header__col">
-								<form class="header__form" action="/"><label class="header__search" for="search"><button class="header__search-icon"><svg class="header__search-svg" width="31" height="33" viewbox="0 0 31 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<form class="header__form" action="/"><label class="header__search" for="search" data-search-parent=""><button class="header__search-icon"><svg class="header__search-svg" width="31" height="33" viewbox="0 0 31 33" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<circle cx="17.7144" cy="13.2857" r="12.2857" stroke="#121212" stroke-width="2"></circle>
 												<line y1="-1" x2="12.5259" y2="-1" transform="matrix(-0.70711 0.707104 -0.70711 -0.707104 8.85693 22.1428)" stroke="#121212" stroke-width="2"></line>
-											</svg></button><textarea class="header__search-input" id="search" name="search" placeholder="Поиск по интернет-магазину"></textarea></label></form>
+											</svg></button>
+										<div class="header__search-wrapper"><input class="header__search-input" id="search" name="search" /><span class="header__search-placeholder">Поиск по интернет-магазину</span></div>
+									</label></form>
 							</div>
 							<div class="header__col">
 								<div class="header__links"><a class="header__cart" href="#">
@@ -824,6 +826,9 @@
 										<div class="instruments-page__tabs-text">Приспособления</div>
 									</div>
 									<div class="instruments-page__tabs-item" data-scroll="#q5">
+										<div class="instruments-page__tabs-text">Аксессуары для инструмента</div>
+									</div>
+									<div class="instruments-page__tabs-item" data-scroll="#q6">
 										<div class="instruments-page__tabs-text">Аксессуары для инструмента</div>
 									</div>
 								</div>
